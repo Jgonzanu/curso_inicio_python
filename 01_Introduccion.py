@@ -229,7 +229,7 @@ saludo_repe.count("Mundo")
 
 
 # SEPARAR UNA CADENA.
-lista_separada = saludo_repe.split("o", 3)
+lista_separada = saludo_repe.split("o", maxsplit=3)
 # Devuelve una LISTA
 
 
