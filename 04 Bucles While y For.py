@@ -9,8 +9,6 @@ Created on Sun Feb 26 14:48:07 2023
 ###############
 # ITERACIONES #
 ###############
-# Limpiamos el directorio.
-%reset -f
 
 #################
 # Funcion While #

@@ -237,15 +237,13 @@ lista_separada = saludo_repe.split("o", maxsplit=3)
 # TRANSFORMAR EL FORMATO DE LOS DATOS #
 #######################################
 
-
-
 # CONVERTIR NUMERO A TEXTO
 a = 5
 a1 = str(a)
 type(a)
 type(a1)
 
-
+# CONVERTIR TEXTO A NUMERO
 b = "8"
 b1 = int(b)
 b2 = float(b)

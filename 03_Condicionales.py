@@ -10,7 +10,6 @@ Created on Sun Feb 26 14:45:24 2023
 # Condicionales y Control de flujo #
 ####################################
 
-
 # Creamos una lista.
 a = [5, 2, 3, 4, 5]
 

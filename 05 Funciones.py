@@ -41,7 +41,6 @@ aislar y solucionar problemas más fácilmente, ya que puedes probar cada funci�
 por separado.
 """
 
-
 # Las funciones pueden requerir argumentos o no
 def dime_algo():
     print("Algo")
@@ -158,7 +157,7 @@ evaluar_cuadratica(x=8, c=3, a=2, b=2)
 evaluar_cuadratica(2, 2, 3, x=8)
 
 # Así no
-evaluar_cuadratica(a=2, 2, 3, 8)
+# evaluar_cuadratica(a=2, 2, 3, 8)
 # Siempre los keyword arguments AL FINAL
 
 # ¿Y si quiero calcular f(8) siendo f = x²+3?
@@ -192,13 +191,14 @@ def imprime_lineas(*lineas):
     for arg in lineas:
         print(arg)
 
+num1 =3
 imprime_lineas("Puedo imprimir", "las líneas", "que quiera", "fin", num1)
 
 # Podría hacerlo con una lista
 def imprime_lineas_con_lista(lista):
     for linea in lista:
         print(linea)
-num1 =3
+
 lista_a_imprimir = ["Puedo imprimir", "las líneas", "que quiera"]
 imprime_lineas_con_lista(lista_a_imprimir, num1)
 

@@ -171,8 +171,6 @@ semana_ref
 # TRABAJANDO CON TUPLAS #
 #########################
 
-reset - f
-
 # CREAMOS LAS TUPLAS
 tupla_mixta = (1, 2, "tres", "cuatro", 5)
 # Si la tupla sólo tiene un valor hay que añadir una coma al final
@@ -215,8 +213,6 @@ tupla_repe = 2 * tupla_mixta
 ###############################
 # TRABAJANDO CON DICCIONARIOS #
 ###############################
-
-%reset - f
 
 # CREAMOS EL DICCIONARIO
 reyes_espana = {
